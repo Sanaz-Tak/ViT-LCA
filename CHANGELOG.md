@@ -2,7 +2,7 @@
 
 All notable changes to the ViT-LCA project will be documented in this file.
 
-## [Unreleased]
+## [1.0.0]
 
 ### Added
 - Initial project structure
@@ -18,7 +18,7 @@ All notable changes to the ViT-LCA project will be documented in this file.
 ### Fixed
 - Parameter naming consistency in LCA class
 
-## [1.0.0] - 2024-01-01
+## [1.0.0] - 2024-10-1
 
 ### Added
 - Core ViT-LCA implementation
@@ -28,15 +28,9 @@ All notable changes to the ViT-LCA project will be documented in this file.
 - Feature extraction pipeline
 - Loss computation and optimization
 
-### Technical Details
-- LCA class with competitive dynamics
-- Neuron activation thresholding
-- Multi-model support (ViT-B-16, ViT-B-32, ViT-L-16, ViT-L-32, Swin-B)
-- Weight variant selection (default, ImageNet-1K, SWAG)
-
 ---
 
 ## Version History
 
 - **1.0.0**: Initial release with core ViT-LCA functionality
-- **Unreleased**: Repository preparation and documentation improvements
+- **1.0.1**: Repository preparation and documentation improvements
