@@ -6,14 +6,6 @@ A research implementation of Vision Transformers (ViT) combined with Local Compe
 
 This project implements a novel approach combining Vision Transformers with Local Competition Algorithm for feature extraction. The LCA algorithm provides sparse coding capabilities while maintaining the powerful representation learning of Vision Transformers.
 
-## Features
-
-- **Multiple ViT Models**: Support for ViT-B-16, ViT-B-32, ViT-L-16, ViT-L-32, and Swin-B
-- **Multi-Dataset Support**: CIFAR-10, CIFAR-100, and ImageNet
-- **Flexible Weight Variants**: Default, ImageNet-1K, and SWAG weights
-- **LCA Integration**: Local Competition Algorithm for sparse feature representation
-- **Interactive CLI**: User-friendly command-line interface for model and dataset selection
-
 ## Requirements
 
 - Python 3.7+
@@ -91,36 +83,12 @@ data_imagenet/
     └── ...
 ```
 
-## Architecture
-
-The project consists of two main components:
-
-1. **Vision Transformer (ViT)**: Extracts hierarchical features from input images
-2. **Local Competition Algorithm (LCA)**: Implements sparse coding for feature representation
-
 ## Project Structure
 
 - **`vit_lca_main.py`**: Core ViT-LCA implementation and main execution pipeline
 - **`vit_lca_experiment.py`**: Interactive interface for dataset and model selection
 - **`data_*/`**: Dataset directories (automatically created)
-- **`ViT_LCA.pdf`**: Research paper documentation
 
-### LCA Algorithm
-
-The LCA algorithm provides:
-- Sparse feature representation
-- Dictionary learning
-- Neuron competition mechanism
-- Configurable sparsity constraints
-
-## Research Applications
-
-This implementation is suitable for:
-- Feature extraction research
-- Sparse coding studies
-- Vision transformer analysis
-- Transfer learning experiments
-- Computational neuroscience research
 
 ## Citation
 
@@ -147,8 +115,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 If you encounter any issues, please report them on the [GitHub Issues](https://github.com/Sanaz-Tak/ViT-LCA/issues) page.
 
-## Acknowledgments
-
-- Vision Transformer implementation based on PyTorch Vision
-- LCA algorithm implementation for sparse coding
-- Dataset handling with Torchvision
